@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow | チームの業務量を、見える化する。</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__logo">Task<span>Flow</span></div>
+      <ul class="nav__links">
+        <li><a href="#problems">課題</a></li>
+        <li><a href="#features">機能</a></li>
+        <li><a href="#how-it-works">使い方</a></li>
+      </ul>
+      <a href="#cta" class="btn btn--outline">無料で始める</a>
+    </nav>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__badge fade-in">業務改善タスク管理ツール</div>
+      <h1 class="hero__title fade-in">
+        チームの業務量を、<br /><span class="gradient-text">見える化する。</span>
+      </h1>
+      <p class="hero__sub fade-in">
+        誰がどれだけ抱えているか、リアルタイムで把握。<br />
+        タスクが多い人から空いている人へ、スムーズに委譲できる。
+      </p>
+      <div class="hero__actions fade-in">
+        <a href="#cta" class="btn btn--primary btn--lg">無料で登録する</a>
+        <a href="#features" class="btn btn--ghost btn--lg">機能を見る</a>
+      </div>
+      <div class="hero__stats fade-in">
+        <div class="stat">
+          <span class="stat__num">3分</span>
+          <span class="stat__label">で導入完了</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">無料</span>
+          <span class="stat__label">から始められる</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">リアルタイム</span>
+          <span class="stat__label">で業務量を可視化</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- 課題提起セクション -->
+  <section class="problems" id="problems">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">PROBLEMS</p>
+        <h2 class="section-title">こんなお悩み、<br /><span class="gradient-text">ありませんか？</span></h2>
+      </div>
+      <div class="problems__grid">
+        <div class="problem-card reveal">
+          <div class="problem-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 14v12l8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>業務過多で<br />余裕がない</h3>
+          <p>一部のメンバーにタスクが集中し、慢性的な残業が発生。チーム全体のパフォーマンスが低下している。</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 20h16M16 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>業務が<br />属人化している</h3>
+          <p>誰が何をどれだけ担当しているか不明確。引き継ぎや代替が難しく、リスクが高まっている。</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="18" r="8" stroke="currentColor" stroke-width="2"/>
+              <circle cx="34" cy="30" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 22l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>相談・依頼が<br />しづらい</h3>
+          <p>「忙しそうで頼みにくい」「誰に振ればいいか分からない」という状況が、チームの協力関係を妨げている。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 機能紹介セクション -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">FEATURES</p>
+        <h2 class="section-title">TaskFlowが解決する<br /><span class="gradient-text">3つの機能</span></h2>
+      </div>
+      <div class="features__list">
+
+        <div class="feature-item reveal">
+          <div class="feature-item__visual">
+            <div class="feature-mock feature-mock--tasks">
+              <div class="mock-header">
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+              </div>
+              <div class="mock-row"><span class="mock-tag mock-tag--high">高</span><span class="mock-bar" style="width:80%"></span></div>
+              <div class="mock-row"><span class="mock-tag mock-tag--mid">中</span><span class="mock-bar" style="width:55%"></span></div>
+              <div class="mock-row"><span class="mock-tag mock-tag--low">低</span><span class="mock-bar" style="width:30%"></span></div>
+              <div class="mock-row"><span class="mock-tag mock-tag--low">低</span><span class="mock-bar" style="width:20%"></span></div>
+            </div>
+          </div>
+          <div class="feature-item__text">
+            <div class="feature-item__num">01</div>
+            <h3>タスク管理</h3>
+            <p>優先度・期限・担当者をセットで管理。直感的な操作でタスクの追加・編集・完了が可能。チーム全体の作業状況をひとつの画面で確認できます。</p>
+            <ul class="feature-list">
+              <li>優先度ラベルで重要度を可視化</li>
+              <li>期限アラートで遅延を防止</li>
+              <li>カテゴリ・タグで整理</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-item feature-item--reverse reveal">
+          <div class="feature-item__visual">
+            <div class="feature-mock feature-mock--chart">
+              <div class="mock-header">
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+              </div>
+              <div class="mock-members">
+                <div class="mock-member">
+                  <span class="mock-avatar">田</span>
+                  <div class="mock-workload">
+                    <div class="mock-workload__bar mock-workload__bar--high" style="width:90%"></div>
+                  </div>
+                  <span class="mock-pct" style="color:#f87171">90%</span>
+                </div>
+                <div class="mock-member">
+                  <span class="mock-avatar">山</span>
+                  <div class="mock-workload">
+                    <div class="mock-workload__bar mock-workload__bar--mid" style="width:55%"></div>
+                  </div>
+                  <span class="mock-pct" style="color:#fbbf24">55%</span>
+                </div>
+                <div class="mock-member">
+                  <span class="mock-avatar">佐</span>
+                  <div class="mock-workload">
+                    <div class="mock-workload__bar mock-workload__bar--low" style="width:25%"></div>
+                  </div>
+                  <span class="mock-pct" style="color:#34d399">25%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="feature-item__text">
+            <div class="feature-item__num">02</div>
+            <h3>業務量の可視化</h3>
+            <p>メンバーごとの業務負荷をリアルタイムでグラフ表示。誰が余裕があり、誰が逼迫しているかを一目で把握。マネージャーの勘頼りから、データドリブンなチーム管理へ。</p>
+            <ul class="feature-list">
+              <li>リアルタイム業務負荷グラフ</li>
+              <li>週次・月次のトレンド分析</li>
+              <li>アラート通知機能</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-item reveal">
+          <div class="feature-item__visual">
+            <div class="feature-mock feature-mock--delegate">
+              <div class="mock-header">
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+                <span class="mock-dot"></span>
+              </div>
+              <div class="mock-task-card">
+                <div class="mock-task-title">資料作成</div>
+                <div class="mock-task-meta">締切: 4/30</div>
+                <div class="mock-delegate-arrow">
+                  <svg width="48" height="24" viewBox="0 0 48 24"><path d="M0 12h40M34 4l8 8-8 8" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="grad" x1="0" y1="0" x2="48" y2="0"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient></defs></svg>
+                </div>
+                <div class="mock-delegate-to">
+                  <span class="mock-avatar mock-avatar--sm">佐</span>
+                  <span class="mock-delegate-label">佐藤さんへ委譲</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="feature-item__text">
+            <div class="feature-item__num">03</div>
+            <h3>タスク委譲</h3>
+            <p>空きのあるメンバーをAIが提案。ワンクリックでタスクを委譲し、受け取った側も即時通知。「頼みにくい」という心理的ハードルをシステムが解消します。</p>
+            <ul class="feature-list">
+              <li>最適な委譲先をAI提案</li>
+              <li>ワンクリック委譲リクエスト</li>
+              <li>受け取り・辞退のフロー</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 利用の流れ -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">HOW IT WORKS</p>
+        <h2 class="section-title">たった<span class="gradient-text">3ステップ</span>で<br />チーム管理が変わる</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step__num">01</div>
+          <div class="step__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>無料で登録</h3>
+          <p>メールアドレスだけで即時アカウント作成。チームメンバーを招待して共有環境を構築します。</p>
+        </div>
+        <div class="step__connector reveal"></div>
+        <div class="step reveal">
+          <div class="step__num">02</div>
+          <div class="step__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 24h16M16 16h16M16 32h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="36" cy="36" r="6" fill="#6366f1"/>
+              <path d="M33 36l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>タスクを入力</h3>
+          <p>担当・優先度・期限を設定してタスクを登録。既存のタスク管理ツールからインポートも可能です。</p>
+        </div>
+        <div class="step__connector reveal"></div>
+        <div class="step reveal">
+          <div class="step__num">03</div>
+          <div class="step__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="36" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="36" cy="34" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M22 21l8-5M22 27l8 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>チームで共有・委譲</h3>
+          <p>全員の業務量が可視化され、偏りがあればすぐに委譲。チーム全体が常に最適な状態で動けます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTAセクション -->
+  <section class="cta" id="cta">
+    <div class="cta__bg">
+      <div class="cta__orb cta__orb--1"></div>
+      <div class="cta__orb cta__orb--2"></div>
+    </div>
+    <div class="container cta__content reveal">
+      <p class="section-label">GET STARTED</p>
+      <h2 class="cta__title">まずは<span class="gradient-text">無料</span>で試す</h2>
+      <p class="cta__sub">クレジットカード不要。3分で始められます。</p>
+      <form class="cta__form" onsubmit="return false;">
+        <input type="email" class="cta__input" placeholder="メールアドレスを入力" />
+        <button type="submit" class="btn btn--primary btn--lg">無料で始める</button>
+      </form>
+      <p class="cta__note">登録することで<a href="#">利用規約</a>・<a href="#">プライバシーポリシー</a>に同意したものとみなされます。</p>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="nav__logo">Task<span>Flow</span></div>
+      <p class="footer__copy">&copy; 2026 TaskFlow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
